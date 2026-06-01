@@ -1,0 +1,9 @@
+[
+  {
+    "id": "001",
+    "username": "admin",
+    "password": "$2b$10$ZD7FFXsdTRzaAboCI7/Oz.gkSThc3Uiije6APRRSaIg2bMPEZ5pS2",
+    "fullname": "Admin Pharmacist",
+    "role": "pharmacist"
+  }
+]
