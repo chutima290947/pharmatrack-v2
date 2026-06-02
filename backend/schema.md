@@ -4,7 +4,6 @@
 > **Database**: PostgreSQL (Neon — ap-southeast-1)
 > **Content-Type**: `application/json`
 > **Authentication**: Bearer Token (JWT)
-> **Date**: 01/06/2026
 
 ---
 
@@ -15,6 +14,9 @@ PharmaTrack ต้องการเชื่อมต่อกับ iMed ใ�
 ---
 
 ### 1. 🔐 Pharmacist Authentication — Login ใช้อันเดียวกับ iMed
+(ตอนนี้ใช้เป็น)
+pharmacist id : admin
+password      : password
 
 เมื่อเภสัชกร login เข้า PharmaTrack → ระบบจะส่ง credentials ไปตรวจสอบกับ iMed
 
