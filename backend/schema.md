@@ -99,8 +99,6 @@ GET {IMED_BASE_URL}/api/orders?vn=VN6600001
     {
       "medication_name": "PRN 5%",
       "total_bottles": 4,
-      "order_date": "2026-06-01",
-      "doctor_name": "นพ. วิชัย รักษ์ดี"
     }
   ]
 }
