@@ -45,7 +45,7 @@ POST {IMED_BASE_URL}/api/auth/login
 | `token` | string | ❌ | Token สำหรับ request ถัดไป (ถ้ามี) |
 
 > 📌 **Key ที่ใช้ match**: `username` = iMed username
-> เภสัชทุกคนสามารถเข้าใช้งานได้
+เภสัชทุกคนสามารถเข้าใช้งานได้
 
 ---
 
@@ -108,10 +108,8 @@ GET {IMED_BASE_URL}/api/orders?vn=VN6600001
 |-------|----------------|------|--------|----------|
 | `medication_name` | TBD | string | ✅ | ชื่อยาตรงช่อง PRN |
 | `total_bottles` | TBD | integer | ✅ | จำนวนขวดที่แพทย์สั่ง |
-| `order_date` | TBD | date | ❌ | วันที่สั่งยา |
 
 > 📌 **Key ที่ใช้ match**: `vn` = Visit Number จาก iMed
-> ⚠️ Field names และ endpoint ฝั่ง iMed ยังรอการยืนยัน — กรุณาระบุให้ทีม PharmaTrack
 
 ---
 
